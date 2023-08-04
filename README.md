@@ -12,7 +12,14 @@ It is an application to send sms online from anywhere to anyone
 
 
 
-
+## Screenshots
+![](./screenshots/Screen%20Shot%202023-08-05%20at%2002.20.07.png)
+![](./screenshots/Screen%20Shot%202023-08-05%20at%2002.26.17.png)
+![](./screenshots/Screen%20Shot%202023-08-05%20at%2002.26.56.png)
+![](./screenshots//Screen%20Shot%202023-08-05%20at%2002.34.14.png)
+![](./screenshots/Screen%20Shot%202023-08-05%20at%2002.34.41.png)
+![](./screenshots/Screen%20Shot%202023-08-05%20at%2002.39.40.png)
+![](./screenshots/Screen%20Shot%202023-08-05%20at%2002.39.48.png)
 
 ## Installation
 **1.** Fork [this](https://github.com/RohanHait/WhatsApp-Colne) repository.
