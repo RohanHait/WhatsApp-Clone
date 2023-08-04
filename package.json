@@ -1,0 +1,13 @@
+{
+    "name": "chat-application-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./server/Server.js",
+    "scripts": {
+      "test": "nodemon server/server.js | (cd whatsapp-clone-ui && npm start)",
+      "build" : "cd whatsapp-clone-ui && npm run build " ,
+      "debug": "nodemon --inspect server.js"
+    },
+    "author": "Rohan Hait",
+    "license": "ISC"
+}
