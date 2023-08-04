@@ -5,7 +5,7 @@ const cors = require('cors');
 const connectDB = require('./config/db');
 const dotenv = require('dotenv');
 dotenv.config({
-    path: '../.env'
+    path: '../vars/.env'
 });
 const chat = require('./data');
 

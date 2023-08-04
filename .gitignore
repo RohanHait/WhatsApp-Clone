@@ -12,7 +12,7 @@ whatsapp-clone-ui/coverage
 whatsapp-clone-ui/build
 
 # misc
-|.env
+/vars
 **/.env.**
 .DS_Store
 .env.local
