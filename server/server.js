@@ -33,7 +33,9 @@ port =  process.env.PORT || 5000;
 app.use('/api/user', require('./Routes/userRoutes'));
 app.use('/api/chat', require('./Routes/chatRoutes'));
 app.use('/api/message', require('./Routes/messageRoutes'));
-
+app.get('/',(req,res)=>{
+    res.send("API IS RUNNING")
+})
 
 // app.use(notFound);
 // app.use(errorHandel) ;
