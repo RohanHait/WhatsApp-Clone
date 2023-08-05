@@ -37,7 +37,9 @@ app.use('/api/message', require('./Routes/messageRoutes'));
 
 // app.use(notFound);
 // app.use(errorHandel) ;
-const server = app.listen(port, () => {
+
+// vercel deployment
+const server = process.env.VERCEL ? app.listen(()=>console.log("Server Is On Vercel Production")): app.listen(port, () => {
     console.log(`Server running on port ${port}`);
 })
 
