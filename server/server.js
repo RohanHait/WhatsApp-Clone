@@ -29,12 +29,12 @@ app.use(cors(
 app.use(Express.json());
 app.use(cookieParser()) ;
 port =  process.env.PORT || 5000;
-
+app.use(Express.static("../whatsapp-clone-ui/build"))
 app.use('/api/user', require('./Routes/userRoutes'));
 app.use('/api/chat', require('./Routes/chatRoutes'));
 app.use('/api/message', require('./Routes/messageRoutes'));
 app.get('/',(req,res)=>{
-    res.send("API IS RUNNING")
+    res.sendFile("../whatsapp-clone-ui/build/index.html") ;
 })
 
 // app.use(notFound);
